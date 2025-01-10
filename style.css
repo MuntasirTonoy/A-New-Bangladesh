@@ -13,15 +13,17 @@ button {
   border: none;
 }
 button:hover {
-  background-color: #006a509a;
+  color: #fff;
+  background-color: #006a50d1;
+  transition: 0.3s;
 }
 nav {
-  margin: 24px 160px;
+  margin: 20px 160px;
   display: flex;
   justify-content: space-around;
 }
 section {
-  margin: 80px auto;
+  margin: 100px auto;
   width: 1280px;
 }
 .sign-in-btn {
@@ -137,6 +139,7 @@ section {
   background-repeat: no-repeat;
   background-position: 25px 20px;
   padding: 48px 24px;
+  margin: 100px auto;
   border-radius: 16px;
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
@@ -271,4 +274,74 @@ section {
   border-radius: 8px;
   display: block;
   margin: auto;
+}
+.subscribe {
+  text-align: center;
+  padding: 80px 100px;
+  background-color: #fff;
+  border-radius: 24px;
+  background: #c6e4d6;
+}
+.subscribe h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.subscribe > p {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  width: 60%;
+  margin: 0px auto 10px;
+}
+.subscribe > input {
+  font-size: 20px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  width: 60%;
+  height: 55px;
+  padding: 28px 40px;
+  margin: 24px 0px;
+}
+.subscribe-btn {
+  color: #fff;
+  background-color: #006a50;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 17px 34px;
+  border-radius: 0 8px 8px 0;
+}
+.subscribe input {
+  font-size: 16px;
+}
+.subscribe > input:focus {
+  outline: none;
+  background-color: #fffad2;
+  transition: 0.3s;
+}
+footer {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 40px 40px 0 0;
+}
+footer > h2 {
+  text-align: center;
+  color: #0e0e0e;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 40px;
+}
+.social-media {
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+hr {
+  width: 70%;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  margin: 0px auto;
 }

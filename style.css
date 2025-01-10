@@ -6,10 +6,19 @@
   box-sizing: border-box;
   font-family: "Fira Sans", serif;
 }
+button {
+  border: none;
+}
+button:hover {
+}
 nav {
   margin: 24px 160px;
   display: flex;
   justify-content: space-around;
+}
+section {
+  margin: 80px auto;
+  width: 1280px;
 }
 .sign-in-btn {
   color: #006a50;
@@ -20,4 +29,122 @@ nav {
   border-radius: 8px;
   border: 1px solid #006a50;
   background-color: #fff;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 24px;
+  background: #c6e4d6;
+  padding: 80px 100px;
+}
+.left-hero > h3 {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.left-hero > h1 {
+  color: #0e0e0e;
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.explore-btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 17px 34px;
+  text-align: center;
+  background: #006a50;
+  border-radius: 8px;
+}
+.vision {
+}
+
+/* re-usable */
+.vision h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+/* re-usable */
+.vision p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.vision-box-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 32px auto;
+}
+.vision-box {
+  height: 325px;
+  width: 416px;
+  padding: 32px;
+  border-radius: 16px;
+  border: 0px solid #5490f5;
+}
+#vision-first-box {
+  background: rgba(84, 144, 245, 0.2);
+}
+#vision-second-box {
+  background: #c6e4d6;
+}
+#vision-third-box {
+  background: #f7ebcf;
+}
+.vision-box h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+}
+.vision-box p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 24px 0;
+  overflow: hidden;
+}
+.learn-more-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+#blue-btn {
+  background: #5490f5;
+}
+#green-btn {
+  background: #09a15c;
+}
+#yellow-btn {
+  background: #ffc239;
+}
+.quote {
+  background-image: url("assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 25px 20px;
+  padding: 48px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.quote p {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.quote h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 24px;
 }

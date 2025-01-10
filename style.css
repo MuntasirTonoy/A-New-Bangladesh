@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Fira Sans", serif;
 }
+body {
+  background: #f5f5f5be;
+}
 button {
   border: none;
 }
@@ -139,7 +142,7 @@ section {
 .quote p {
   line-height: 24px;
   color: rgba(14, 14, 14, 0.7);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 .quote h3 {
@@ -147,4 +150,55 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin-top: 24px;
+}
+.news {
+}
+.news > h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.news p {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.news-box-container {
+  margin: 32px auto;
+}
+.news-box {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 48px;
+  display: flex;
+  justify-content: start;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.news-box-right > * {
+  margin: 6px 0;
+}
+.news-box-left > img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+.news-box-right h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+}
+.read-btn {
+  color: #fff;
+  background-color: #006a50;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 13px 26px;
+  border-radius: 8px;
+}
+#second-news-box > .news-box-left {
+  order: 1;
 }

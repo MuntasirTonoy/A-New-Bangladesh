@@ -67,8 +67,6 @@ section {
   background: #006a50;
   border-radius: 8px;
 }
-.vision {
-}
 
 /* re-usable */
 .vision h2 {
@@ -95,15 +93,26 @@ section {
   padding: 32px;
   border-radius: 16px;
   border: 0px solid #5490f5;
+  transition: 0.3s;
 }
+
 #vision-first-box {
   background: rgba(84, 144, 245, 0.2);
+}
+#vision-first-box:hover {
+  background: rgba(84, 143, 245, 0.367);
 }
 #vision-second-box {
   background: #c6e4d6;
 }
+#vision-second-box:hover {
+  background: #94cfb3f5;
+}
 #vision-third-box {
   background: #f7ebcf;
+}
+#vision-third-box:hover {
+  background: #ffde93;
 }
 .vision-box h3 {
   color: rgba(14, 14, 14, 0.8);
@@ -129,11 +138,20 @@ section {
 #blue-btn {
   background: #5490f5;
 }
+#blue-btn:hover {
+  background: #2b6cdc;
+}
 #green-btn {
   background: #09a15c;
 }
+#green-btn:hover {
+  background: #047140;
+}
 #yellow-btn {
   background: #ffc239;
+}
+#yellow-btn:hover {
+  background: #fbb30d;
 }
 .quote {
   background-image: url("assets/quote-bg.png");

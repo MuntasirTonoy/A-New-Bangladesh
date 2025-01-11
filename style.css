@@ -272,6 +272,9 @@ section {
   background-color: #c6e4d6;
   transition: 0.3s ease-in-out;
 }
+.active {
+  background-color: #c6e4d6;
+}
 .donate input {
   font-size: 20px;
   border: none;

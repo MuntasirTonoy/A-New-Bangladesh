@@ -214,6 +214,10 @@ section {
   font-size: 32px;
   font-weight: 700;
 }
+.news-time span {
+  margin-right: 10px;
+  font-size: 18px;
+}
 .read-btn {
   color: #fff;
   background-color: #006a50;

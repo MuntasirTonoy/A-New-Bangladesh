@@ -11,6 +11,7 @@ body {
 }
 button {
   border: none;
+  cursor: pointer;
 }
 button:hover {
   color: #fff;
@@ -303,7 +304,7 @@ section {
   width: 60%;
   height: 55px;
   padding: 28px 40px;
-  margin: 24px 0px;
+  margin: 24px -5px;
 }
 .subscribe-btn {
   color: #fff;
@@ -312,6 +313,7 @@ section {
   font-weight: 500;
   padding: 17px 34px;
   border-radius: 0 8px 8px 0;
+  margin-left: o;
 }
 .subscribe input {
   font-size: 16px;
